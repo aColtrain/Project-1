@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    /*background-color: lightcyan;*/
+
+}
+body{
+    background-image: url(Website%20Background%201%20Img.png);
+    
+    background-attachment: scroll;
+    background-size:cover, auto;
+    background-repeat: no-repeat;
+    background-position: center;  
+    
+}
+
+.home-body{
+    border:3px soild white;
+    
+}
+header{
+    
+    text-align: center;
+    padding: 10px 0px;
+    background-color: lightcyan;
+    opacity: .8;    
+}
+.home-header{
+    text-align: left;
+    text-indent: 90px;
+    background: none;
+    color:white;
+    opacity: 1;
+    border-color:white;
+    margin: 250px 0px 0px;
+    
+}
+
+nav{
+    text-decoration: none;
+    text-align: center;
+    position: sticky;
+    top:0;
+    width: 100%;
+    background-color: darkcyan;
+    padding: 14px 16px;
+    
+}
+.home-nav{
+    background: none;
+    text-align: left;
+    text-indent: 55px;
+}
+
+
+a, a:link, a:visited {
+    text-decoration: none;
+    margin: 20px ;
+    color: White;
+    /*background-color: darkcyan;*/
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color: thistle;
+}
+
+
+img{
+    max-width: 100%;
+    border-radius: 30px;     
+    image-orientation: center;
+    padding: 10px;
+    
+    
+}
+
+.photo-img{
+    width: 50%;
+    
+}
+.meow{
+    float: center;
+    height: 500px;
+    Width:auto;
+
+}
+.ted{
+    float:center;
+    height: 500px;
+    width:auto;
+    
+}
+
+.contact-img{
+    border-radius: 70px;
+    text-align: center;
+}
+.email{
+    width: 250px;
+}
+.insta{
+    width: 200px;
+    margin: 20px
+}
+.insta-user{
+    text-align: left;
+    text-indent: 170px;
+    word-spacing: 160px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+main{
+    
+    
+}
+
+section{
+    background: rgb(224,255,255,.8);
+    margin: 2% 10%;
+    text-align: center;
+    border-radius: 2px;
+    
+    
+}
+.about-body{
+    text-align: left;
+    text-indent: 10px;
+
+    
+}
+.par1{
+    text-indent: 35px;
+        
+}
+    
+}
+aside{
+    
+}
+
+footer{
+    
+}
