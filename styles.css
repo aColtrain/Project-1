@@ -51,25 +51,34 @@ nav{
     background: none;
     text-align: left;
     text-indent: 55px;
+    
 }
 
 
 a, a:link, a:visited {
     text-decoration: none;
-    margin: 20px ;
-    color: White;
+    margin: 15px ;
+/*    color: White;*/
     /*background-color: darkcyan;*/
-    text-transform: uppercase;
-    text-align: center;
+/*    text-transform: uppercase;*/
+/*     text-align: center;*/
     text-decoration: none;
 }
+
+.navigation{
+    color: White;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
 a:hover{
     color: thistle;
 }
 
 
 img{
-    max-width: 100%;
+    
     border-radius: 30px;     
     image-orientation: center;
     padding: 10px;
@@ -134,13 +143,34 @@ section{
 .about-body{
     text-align: left;
     text-indent: 10px;
-
+}
+.about-img{
     
+    max-height: 300px;
+    max-width: 1000%;
+    margin-left:auto;
+    margin-right:auto;
 }
 .par1{
     text-indent: 35px;
         
 }
+.proj-label{
+    text-align: left;
+    
+    color: black;
+}
+.proj-img{
+    max-height: 40%;
+    max-width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.proj-con{
+
+}
+
     
 }
 aside{
